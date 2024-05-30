@@ -33,6 +33,9 @@ public class ShoppingCartController {
 
     @GetMapping("/")
     public String getName(){
+        String val = "bald";
+
+
         return "Hello";
     }
 }

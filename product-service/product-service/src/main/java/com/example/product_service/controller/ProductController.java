@@ -16,7 +16,7 @@ public class ProductController {
     private ProductService productService;
 
     // @Value("${product.message}")
-    String message = "Hello";
+    String message = "Helo";
 
     @PostMapping("/addProducts")
     public List<Product> addProducts(@RequestBody List<Product> productList){
