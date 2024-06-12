@@ -1,18 +1,15 @@
-package com.example.gateway;
+package com.example.jwt_validator;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
-import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
 @EnableEurekaClient
-public class GatewayApplication {
+public class JwtValidatorApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(GatewayApplication.class, args);
+		SpringApplication.run(JwtValidatorApplication.class, args);
 	}
-
-
 
 }

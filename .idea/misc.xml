@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/product-service/product-service/pom.xml" />
         <option value="$PROJECT_DIR$/shoppingcart-service/shoppingcart-service/pom.xml" />
         <option value="$PROJECT_DIR$/gateway/gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/jwt_validator/jwt_validator/pom.xml" />
       </list>
     </option>
   </component>
